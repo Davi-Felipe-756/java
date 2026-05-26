@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercício 5</title>
+</head>
+<body>
+
+  <h1>Davi</h1>
+
+  <p>é legal :D</p>
+
+  <button>oq q esse butão faz???</button>
+
+  <script>
+    let titulo = document.querySelector("h1");
+    let paragrafo = document.querySelector("p");
+    let botao = document.querySelector("button");
+
+    botao.addEventListener("click", function() {
+
+      titulo.innerText = "OXI?";
+
+      paragrafo.innerText = "cabo a luz?";
+
+      document.body.style.backgroundColor = "black";
+
+      document.body.style.color = "white";
+
+    });
+  </script>
+
+</body>
+</html>

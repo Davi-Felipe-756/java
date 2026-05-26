@@ -1,0 +1,25 @@
+.mario{
+position: absolute;
+z-index: -1;
+top: 0;
+height: 1000px;
+width: 1500px;
+left: 0;
+}
+body{
+    color: white;
+    text-transform: uppercase;
+}
+.Chaos{
+    position: absolute;
+    z-index: 2;
+    heigth: 400px;
+    width: 400px;
+}
+.perfect{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    width: 500px;
+    right: 0;
+}

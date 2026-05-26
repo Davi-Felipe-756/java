@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>olá</h1>
+
+
+</body>
+<script>
+       let nome = prompt("digite seu nome: ")
+    function saudacao(nome){
+        alert(nome)
+
+}
+   saudacao("Olá " + nome )
+
+    let idade = prompt("digite sua idade: ")
+    function mensagem(idade){
+  if (idade >= 18){
+        alert("permissão de acesso concedida")
+    } else {
+        alert("saia do site")
+    } 
+}
+
+    mensagem(idade)
+
+ let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+
+function media(nota1, nota2) {
+    let resultado = (nota1 + nota2) / 2;
+
+    if (resultado >= 6.5) {
+        alert("Parabéns! Sua média final é " + resultado);
+    } else {
+        alert("REPROVOU OTARIO! Você tirou " + resultado);
+    }
+}
+
+media(nota1, nota2);
+</script>
+</html>
